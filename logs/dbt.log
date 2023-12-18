@@ -1,0 +1,901 @@
+[0m10:18:52.113027 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105719390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105718290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105796a10>]}
+
+
+============================== 10:18:52.114909 | 9f522427-31aa-4920-905c-cec341136c71 ==============================
+[0m10:18:52.114909 [info ] [MainThread]: Running with dbt=1.7.4
+[0m10:18:52.115209 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/Users/tom/.dbt', 'log_path': '/Users/tom/Documents/ReadyPlayerMe/dbt/dev/logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt deps', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m10:18:52.154795 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '9f522427-31aa-4920-905c-cec341136c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105796890>]}
+[0m10:18:52.155214 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m10:18:52.155566 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m10:18:52.156402 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 0.06796537, "process_user_time": 0.817013, "process_kernel_time": 0.081969, "process_mem_max_rss": "109051904", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m10:18:52.156690 [debug] [MainThread]: Command `dbt deps` succeeded at 10:18:52.156619 after 0.07 seconds
+[0m10:18:52.156855 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1004c2690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x100421d50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x100421c10>]}
+[0m10:18:52.157015 [debug] [MainThread]: Flushing usage events
+[0m10:19:25.316874 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108b18950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108b7d750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108b19350>]}
+
+
+============================== 10:19:25.319205 | 658e88b8-227d-49ba-be56-4576bed4e438 ==============================
+[0m10:19:25.319205 [info ] [MainThread]: Running with dbt=1.7.4
+[0m10:19:25.319503 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/tom/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': '/Users/tom/Documents/ReadyPlayerMe/dbt/dev/logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt deps', 'send_anonymous_usage_stats': 'True'}
+[0m10:19:25.354229 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '658e88b8-227d-49ba-be56-4576bed4e438', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108c08b10>]}
+[0m10:19:25.354693 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m10:19:25.355064 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m10:19:25.355935 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 0.062470082, "process_user_time": 0.808417, "process_kernel_time": 0.083953, "process_mem_max_rss": "109445120", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m10:19:25.356242 [debug] [MainThread]: Command `dbt deps` succeeded at 10:19:25.356174 after 0.06 seconds
+[0m10:19:25.356447 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108b7ded0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102d99d50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102e3a550>]}
+[0m10:19:25.356718 [debug] [MainThread]: Flushing usage events
+[0m10:19:47.981180 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111f35d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111f96150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111f967d0>]}
+
+
+============================== 10:19:47.983049 | e43cb170-85fc-4cb7-ad31-f85b4faf48e5 ==============================
+[0m10:19:47.983049 [info ] [MainThread]: Running with dbt=1.7.4
+[0m10:19:47.983320 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': '/Users/tom/Documents/ReadyPlayerMe/dbt/dev/logs', 'fail_fast': 'False', 'profiles_dir': '/Users/tom/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt deps', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m10:19:48.018886 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'e43cb170-85fc-4cb7-ad31-f85b4faf48e5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111f7dc50>]}
+[0m10:19:48.019920 [debug] [MainThread]: Set downloads directory='/var/folders/gc/7wj_hz8n0cn8b9rtd1d4_6vr0000gn/T/dbt-downloads-jt63s13h'
+[0m10:19:48.020191 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m10:19:48.128040 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m10:19:48.129463 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/codegen.json
+[0m10:19:48.180051 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/codegen.json 200
+[0m10:19:48.181812 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m10:19:48.230214 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m10:19:48.235975 [info ] [MainThread]: Updating lock file in file path: /Users/tom/Documents/ReadyPlayerMe/dbt/dev/package-lock.yml
+[0m10:19:48.237729 [debug] [MainThread]: Set downloads directory='/var/folders/gc/7wj_hz8n0cn8b9rtd1d4_6vr0000gn/T/dbt-downloads-hkmw166c'
+[0m10:19:48.239949 [info ] [MainThread]: Installing dbt-labs/codegen
+[0m10:19:48.515597 [info ] [MainThread]: Installed from version 0.12.1
+[0m10:19:48.516080 [info ] [MainThread]: Up to date!
+[0m10:19:48.516457 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'e43cb170-85fc-4cb7-ad31-f85b4faf48e5', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111f7c110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111f7ce50>]}
+[0m10:19:48.516779 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m10:19:48.859776 [info ] [MainThread]: Installed from version 1.1.1
+[0m10:19:48.860077 [info ] [MainThread]: Up to date!
+[0m10:19:48.860290 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'e43cb170-85fc-4cb7-ad31-f85b4faf48e5', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1120aabd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1120a8b90>]}
+[0m10:19:48.861893 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 0.90451914, "process_user_time": 0.913389, "process_kernel_time": 0.147327, "process_mem_max_rss": "115326976", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m10:19:48.862246 [debug] [MainThread]: Command `dbt deps` succeeded at 10:19:48.862171 after 0.90 seconds
+[0m10:19:48.862446 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102b01d50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102aea110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110e22ad0>]}
+[0m10:19:48.862638 [debug] [MainThread]: Flushing usage events
+[0m10:21:19.595667 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b519890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b5960d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b596750>]}
+
+
+============================== 10:21:19.598018 | 78eada88-9b9a-49d9-9023-aff4300043b3 ==============================
+[0m10:21:19.598018 [info ] [MainThread]: Running with dbt=1.7.4
+[0m10:21:19.598297 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/tom/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': '/Users/tom/Documents/ReadyPlayerMe/dbt/dev/logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt run-operation generate_source --args {"schema_name": "source", "table_names":["source_users"], "generate_columns": "true", "include_data_types": "true"}', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m10:21:19.754019 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '78eada88-9b9a-49d9-9023-aff4300043b3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c42af10>]}
+[0m10:21:19.787212 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '78eada88-9b9a-49d9-9023-aff4300043b3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c42af10>]}
+[0m10:21:19.787832 [info ] [MainThread]: Registered adapter: redshift=1.7.1
+[0m10:21:19.796435 [debug] [MainThread]: checksum: 248e8aba381ba2d577dce7ab50d2010c2aac45d2b27e6e6214cdd96d2d41fabc, vars: {}, profile: , target: , version: 1.7.4
+[0m10:21:19.797179 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m10:21:19.797419 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '78eada88-9b9a-49d9-9023-aff4300043b3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cdc3e50>]}
+[0m10:21:20.327192 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dev.example
+[0m10:21:20.329506 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '78eada88-9b9a-49d9-9023-aff4300043b3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cd1da90>]}
+[0m10:21:20.333776 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '78eada88-9b9a-49d9-9023-aff4300043b3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d23a290>]}
+[0m10:21:20.334009 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 591 macros, 0 groups, 0 semantic models
+[0m10:21:20.334170 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '78eada88-9b9a-49d9-9023-aff4300043b3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a8b2190>]}
+[0m10:21:20.334538 [debug] [MainThread]: Acquiring new redshift connection 'macro_generate_source'
+[0m10:21:20.336559 [debug] [MainThread]: Using redshift connection "macro_generate_source"
+[0m10:21:20.336687 [debug] [MainThread]: On macro_generate_source: BEGIN
+[0m10:21:20.336802 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m10:21:20.338263 [debug] [MainThread]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m10:21:20.338417 [debug] [MainThread]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m10:21:21.212380 [debug] [MainThread]: SQL status: SUCCESS in 1.0 seconds
+[0m10:21:21.214023 [debug] [MainThread]: On macro_generate_source: COMMIT
+[0m10:21:21.215294 [debug] [MainThread]: Using redshift connection "macro_generate_source"
+[0m10:21:21.215888 [debug] [MainThread]: On macro_generate_source: COMMIT
+[0m10:21:21.389721 [debug] [MainThread]: SQL status: SUCCESS in 0.0 seconds
+[0m10:21:21.424673 [debug] [MainThread]: Using redshift connection "macro_generate_source"
+[0m10:21:21.425185 [debug] [MainThread]: On macro_generate_source: BEGIN
+[0m10:21:21.511933 [debug] [MainThread]: SQL status: SUCCESS in 0.0 seconds
+[0m10:21:21.512891 [debug] [MainThread]: Using redshift connection "macro_generate_source"
+[0m10:21:21.513359 [debug] [MainThread]: On macro_generate_source: /* {"app": "dbt", "dbt_version": "1.7.4", "profile_name": "dev", "target_name": "dev", "connection_name": "macro_generate_source"} */
+
+      with bound_views as (
+        select
+          ordinal_position,
+          table_schema,
+          column_name,
+          data_type,
+          character_maximum_length,
+          numeric_precision,
+          numeric_scale
+
+        from information_schema."columns"
+        where table_name = 'source_users'
+    ),
+
+    unbound_views as (
+      select
+        ordinal_position,
+        view_schema,
+        col_name,
+        case
+          when col_type ilike 'character varying%' then
+            'character varying'
+          when col_type ilike 'numeric%' then 'numeric'
+          else col_type
+        end as col_type,
+        case
+          when col_type like 'character%'
+          then nullif(REGEXP_SUBSTR(col_type, '[0-9]+'), '')::int
+          else null
+        end as character_maximum_length,
+        case
+          when col_type like 'numeric%'
+          then nullif(
+            SPLIT_PART(REGEXP_SUBSTR(col_type, '[0-9,]+'), ',', 1),
+            '')::int
+          else null
+        end as numeric_precision,
+        case
+          when col_type like 'numeric%'
+          then nullif(
+            SPLIT_PART(REGEXP_SUBSTR(col_type, '[0-9,]+'), ',', 2),
+            '')::int
+          else null
+        end as numeric_scale
+
+      from pg_get_late_binding_view_cols()
+      cols(view_schema name, view_name name, col_name name,
+           col_type varchar, ordinal_position int)
+      where view_name = 'source_users'
+    ),
+
+    external_views as (
+      select
+        columnnum,
+        schemaname,
+        columnname,
+        case
+          when external_type ilike 'character varying%' or external_type ilike 'varchar%'
+          then 'character varying'
+          when external_type ilike 'numeric%' then 'numeric'
+          else external_type
+        end as external_type,
+        case
+          when external_type like 'character%' or external_type like 'varchar%'
+          then nullif(
+            REGEXP_SUBSTR(external_type, '[0-9]+'),
+            '')::int
+          else null
+        end as character_maximum_length,
+        case
+          when external_type like 'numeric%'
+          then nullif(
+            SPLIT_PART(REGEXP_SUBSTR(external_type, '[0-9,]+'), ',', 1),
+            '')::int
+          else null
+        end as numeric_precision,
+        case
+          when external_type like 'numeric%'
+          then nullif(
+            SPLIT_PART(REGEXP_SUBSTR(external_type, '[0-9,]+'), ',', 2),
+            '')::int
+          else null
+        end as numeric_scale
+      from
+        pg_catalog.svv_external_columns
+      where
+        schemaname = 'source'
+        and tablename = 'source_users'
+
+    ),
+
+    unioned as (
+      select * from bound_views
+      union all
+      select * from unbound_views
+      union all
+      select * from external_views
+    )
+
+    select
+      column_name,
+      data_type,
+      character_maximum_length,
+      numeric_precision,
+      numeric_scale
+
+    from unioned
+    
+    where table_schema = 'source'
+    
+    order by ordinal_position
+[0m10:21:21.931287 [debug] [MainThread]: SQL status: SUCCESS in 0.0 seconds
+[0m10:21:21.954040 [debug] [MainThread]: On macro_generate_source: ROLLBACK
+[0m10:21:22.172079 [debug] [MainThread]: On macro_generate_source: Close
+[0m10:21:22.175641 [debug] [MainThread]: Resource report: {"command_name": "run-operation", "command_success": true, "command_wall_clock_time": 2.605989, "process_user_time": 1.539733, "process_kernel_time": 0.170626, "process_mem_max_rss": "131776512", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m10:21:22.176075 [debug] [MainThread]: Command `dbt run-operation` succeeded at 10:21:22.175990 after 2.61 seconds
+[0m10:21:22.176280 [debug] [MainThread]: Connection 'macro_generate_source' was properly closed.
+[0m10:21:22.176610 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b5963d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104a9de50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b5a4710>]}
+[0m10:21:22.177036 [debug] [MainThread]: Flushing usage events
+[0m10:21:44.254901 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110d62210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110db3890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110db3b90>]}
+
+
+============================== 10:21:44.258880 | d0a8a89d-3c74-4e13-b1c9-e86b251481cf ==============================
+[0m10:21:44.258880 [info ] [MainThread]: Running with dbt=1.7.4
+[0m10:21:44.259461 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/Users/tom/Documents/ReadyPlayerMe/dbt/dev/logs', 'profiles_dir': '/Users/tom/.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt run-operation generate_source --args {"schema_name": "source", "table_names":["source_users"], "generate_columns": "true", "include_data_types": "true"}', 'send_anonymous_usage_stats': 'True'}
+[0m10:21:44.378533 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd0a8a89d-3c74-4e13-b1c9-e86b251481cf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110db2f10>]}
+[0m10:21:44.411663 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'd0a8a89d-3c74-4e13-b1c9-e86b251481cf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110dd1d10>]}
+[0m10:21:44.412174 [info ] [MainThread]: Registered adapter: redshift=1.7.1
+[0m10:21:44.420277 [debug] [MainThread]: checksum: 248e8aba381ba2d577dce7ab50d2010c2aac45d2b27e6e6214cdd96d2d41fabc, vars: {}, profile: , target: , version: 1.7.4
+[0m10:21:44.437416 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m10:21:44.437643 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m10:21:44.437828 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dev.example
+[0m10:21:44.440254 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'd0a8a89d-3c74-4e13-b1c9-e86b251481cf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112264ed0>]}
+[0m10:21:44.445822 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'd0a8a89d-3c74-4e13-b1c9-e86b251481cf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1121b8e50>]}
+[0m10:21:44.446100 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 591 macros, 0 groups, 0 semantic models
+[0m10:21:44.446260 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd0a8a89d-3c74-4e13-b1c9-e86b251481cf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1116f3b90>]}
+[0m10:21:44.446639 [debug] [MainThread]: Acquiring new redshift connection 'macro_generate_source'
+[0m10:21:44.448771 [debug] [MainThread]: Using redshift connection "macro_generate_source"
+[0m10:21:44.448910 [debug] [MainThread]: On macro_generate_source: BEGIN
+[0m10:21:44.449031 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m10:21:44.450531 [debug] [MainThread]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m10:21:44.450687 [debug] [MainThread]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m10:21:45.362003 [debug] [MainThread]: SQL status: SUCCESS in 1.0 seconds
+[0m10:21:45.363981 [debug] [MainThread]: On macro_generate_source: COMMIT
+[0m10:21:45.364486 [debug] [MainThread]: Using redshift connection "macro_generate_source"
+[0m10:21:45.364804 [debug] [MainThread]: On macro_generate_source: COMMIT
+[0m10:21:45.599172 [debug] [MainThread]: SQL status: SUCCESS in 0.0 seconds
+[0m10:21:45.619319 [debug] [MainThread]: Using redshift connection "macro_generate_source"
+[0m10:21:45.619674 [debug] [MainThread]: On macro_generate_source: BEGIN
+[0m10:21:45.717726 [debug] [MainThread]: SQL status: SUCCESS in 0.0 seconds
+[0m10:21:45.718160 [debug] [MainThread]: Using redshift connection "macro_generate_source"
+[0m10:21:45.718497 [debug] [MainThread]: On macro_generate_source: /* {"app": "dbt", "dbt_version": "1.7.4", "profile_name": "dev", "target_name": "dev", "connection_name": "macro_generate_source"} */
+
+      with bound_views as (
+        select
+          ordinal_position,
+          table_schema,
+          column_name,
+          data_type,
+          character_maximum_length,
+          numeric_precision,
+          numeric_scale
+
+        from information_schema."columns"
+        where table_name = 'source_users'
+    ),
+
+    unbound_views as (
+      select
+        ordinal_position,
+        view_schema,
+        col_name,
+        case
+          when col_type ilike 'character varying%' then
+            'character varying'
+          when col_type ilike 'numeric%' then 'numeric'
+          else col_type
+        end as col_type,
+        case
+          when col_type like 'character%'
+          then nullif(REGEXP_SUBSTR(col_type, '[0-9]+'), '')::int
+          else null
+        end as character_maximum_length,
+        case
+          when col_type like 'numeric%'
+          then nullif(
+            SPLIT_PART(REGEXP_SUBSTR(col_type, '[0-9,]+'), ',', 1),
+            '')::int
+          else null
+        end as numeric_precision,
+        case
+          when col_type like 'numeric%'
+          then nullif(
+            SPLIT_PART(REGEXP_SUBSTR(col_type, '[0-9,]+'), ',', 2),
+            '')::int
+          else null
+        end as numeric_scale
+
+      from pg_get_late_binding_view_cols()
+      cols(view_schema name, view_name name, col_name name,
+           col_type varchar, ordinal_position int)
+      where view_name = 'source_users'
+    ),
+
+    external_views as (
+      select
+        columnnum,
+        schemaname,
+        columnname,
+        case
+          when external_type ilike 'character varying%' or external_type ilike 'varchar%'
+          then 'character varying'
+          when external_type ilike 'numeric%' then 'numeric'
+          else external_type
+        end as external_type,
+        case
+          when external_type like 'character%' or external_type like 'varchar%'
+          then nullif(
+            REGEXP_SUBSTR(external_type, '[0-9]+'),
+            '')::int
+          else null
+        end as character_maximum_length,
+        case
+          when external_type like 'numeric%'
+          then nullif(
+            SPLIT_PART(REGEXP_SUBSTR(external_type, '[0-9,]+'), ',', 1),
+            '')::int
+          else null
+        end as numeric_precision,
+        case
+          when external_type like 'numeric%'
+          then nullif(
+            SPLIT_PART(REGEXP_SUBSTR(external_type, '[0-9,]+'), ',', 2),
+            '')::int
+          else null
+        end as numeric_scale
+      from
+        pg_catalog.svv_external_columns
+      where
+        schemaname = 'source'
+        and tablename = 'source_users'
+
+    ),
+
+    unioned as (
+      select * from bound_views
+      union all
+      select * from unbound_views
+      union all
+      select * from external_views
+    )
+
+    select
+      column_name,
+      data_type,
+      character_maximum_length,
+      numeric_precision,
+      numeric_scale
+
+    from unioned
+    
+    where table_schema = 'source'
+    
+    order by ordinal_position
+[0m10:21:46.113241 [debug] [MainThread]: SQL status: SUCCESS in 0.0 seconds
+[0m10:21:46.125463 [debug] [MainThread]: On macro_generate_source: ROLLBACK
+[0m10:21:46.348746 [debug] [MainThread]: On macro_generate_source: Close
+[0m10:21:46.352509 [debug] [MainThread]: Resource report: {"command_name": "run-operation", "command_success": true, "command_wall_clock_time": 2.1191547, "process_user_time": 1.027787, "process_kernel_time": 0.124382, "process_mem_max_rss": "129908736", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m10:21:46.353131 [debug] [MainThread]: Command `dbt run-operation` succeeded at 10:21:46.352993 after 2.12 seconds
+[0m10:21:46.353450 [debug] [MainThread]: Connection 'macro_generate_source' was properly closed.
+[0m10:21:46.353783 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110dd2750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112288590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1121b88d0>]}
+[0m10:21:46.354152 [debug] [MainThread]: Flushing usage events
+[0m10:29:02.037346 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ac19c10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ac7d610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ac96bd0>]}
+
+
+============================== 10:29:02.040323 | b75c2a13-e43a-4bf4-a18b-d162098d751e ==============================
+[0m10:29:02.040323 [info ] [MainThread]: Running with dbt=1.7.4
+[0m10:29:02.040631 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': '/Users/tom/Documents/ReadyPlayerMe/dbt/dev/logs', 'fail_fast': 'False', 'profiles_dir': '/Users/tom/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt run-operation generate_source --args {"schema_name": "source", "table_names":["source_organization_users"], "generate_columns": "true", "include_data_types": "true"}', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m10:29:02.205000 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'b75c2a13-e43a-4bf4-a18b-d162098d751e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ac522d0>]}
+[0m10:29:02.241450 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'b75c2a13-e43a-4bf4-a18b-d162098d751e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c031f50>]}
+[0m10:29:02.242140 [info ] [MainThread]: Registered adapter: redshift=1.7.1
+[0m10:29:02.254456 [debug] [MainThread]: checksum: 248e8aba381ba2d577dce7ab50d2010c2aac45d2b27e6e6214cdd96d2d41fabc, vars: {}, profile: , target: , version: 1.7.4
+[0m10:29:02.293766 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 1 files added, 0 files changed.
+[0m10:29:02.294130 [debug] [MainThread]: Partial parsing: added file: dev://models/sources.yml
+[0m10:29:02.364439 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dev.example
+[0m10:29:02.367069 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b75c2a13-e43a-4bf4-a18b-d162098d751e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c04ad90>]}
+[0m10:29:02.372269 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'b75c2a13-e43a-4bf4-a18b-d162098d751e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c91be50>]}
+[0m10:29:02.372503 [info ] [MainThread]: Found 1 source, 0 exposures, 0 metrics, 591 macros, 0 groups, 0 semantic models
+[0m10:29:02.372646 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b75c2a13-e43a-4bf4-a18b-d162098d751e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c91b150>]}
+[0m10:29:02.372990 [debug] [MainThread]: Acquiring new redshift connection 'macro_generate_source'
+[0m10:29:02.375017 [debug] [MainThread]: Using redshift connection "macro_generate_source"
+[0m10:29:02.375148 [debug] [MainThread]: On macro_generate_source: BEGIN
+[0m10:29:02.375263 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m10:29:02.376695 [debug] [MainThread]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m10:29:02.376846 [debug] [MainThread]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m10:29:03.501080 [debug] [MainThread]: SQL status: SUCCESS in 1.0 seconds
+[0m10:29:03.501892 [debug] [MainThread]: On macro_generate_source: COMMIT
+[0m10:29:03.502562 [debug] [MainThread]: Using redshift connection "macro_generate_source"
+[0m10:29:03.503001 [debug] [MainThread]: On macro_generate_source: COMMIT
+[0m10:29:03.710142 [debug] [MainThread]: SQL status: SUCCESS in 0.0 seconds
+[0m10:29:03.748111 [debug] [MainThread]: Using redshift connection "macro_generate_source"
+[0m10:29:03.748484 [debug] [MainThread]: On macro_generate_source: BEGIN
+[0m10:29:03.850938 [debug] [MainThread]: SQL status: SUCCESS in 0.0 seconds
+[0m10:29:03.851310 [debug] [MainThread]: Using redshift connection "macro_generate_source"
+[0m10:29:03.851625 [debug] [MainThread]: On macro_generate_source: /* {"app": "dbt", "dbt_version": "1.7.4", "profile_name": "dev", "target_name": "dev", "connection_name": "macro_generate_source"} */
+
+      with bound_views as (
+        select
+          ordinal_position,
+          table_schema,
+          column_name,
+          data_type,
+          character_maximum_length,
+          numeric_precision,
+          numeric_scale
+
+        from information_schema."columns"
+        where table_name = 'source_organization_users'
+    ),
+
+    unbound_views as (
+      select
+        ordinal_position,
+        view_schema,
+        col_name,
+        case
+          when col_type ilike 'character varying%' then
+            'character varying'
+          when col_type ilike 'numeric%' then 'numeric'
+          else col_type
+        end as col_type,
+        case
+          when col_type like 'character%'
+          then nullif(REGEXP_SUBSTR(col_type, '[0-9]+'), '')::int
+          else null
+        end as character_maximum_length,
+        case
+          when col_type like 'numeric%'
+          then nullif(
+            SPLIT_PART(REGEXP_SUBSTR(col_type, '[0-9,]+'), ',', 1),
+            '')::int
+          else null
+        end as numeric_precision,
+        case
+          when col_type like 'numeric%'
+          then nullif(
+            SPLIT_PART(REGEXP_SUBSTR(col_type, '[0-9,]+'), ',', 2),
+            '')::int
+          else null
+        end as numeric_scale
+
+      from pg_get_late_binding_view_cols()
+      cols(view_schema name, view_name name, col_name name,
+           col_type varchar, ordinal_position int)
+      where view_name = 'source_organization_users'
+    ),
+
+    external_views as (
+      select
+        columnnum,
+        schemaname,
+        columnname,
+        case
+          when external_type ilike 'character varying%' or external_type ilike 'varchar%'
+          then 'character varying'
+          when external_type ilike 'numeric%' then 'numeric'
+          else external_type
+        end as external_type,
+        case
+          when external_type like 'character%' or external_type like 'varchar%'
+          then nullif(
+            REGEXP_SUBSTR(external_type, '[0-9]+'),
+            '')::int
+          else null
+        end as character_maximum_length,
+        case
+          when external_type like 'numeric%'
+          then nullif(
+            SPLIT_PART(REGEXP_SUBSTR(external_type, '[0-9,]+'), ',', 1),
+            '')::int
+          else null
+        end as numeric_precision,
+        case
+          when external_type like 'numeric%'
+          then nullif(
+            SPLIT_PART(REGEXP_SUBSTR(external_type, '[0-9,]+'), ',', 2),
+            '')::int
+          else null
+        end as numeric_scale
+      from
+        pg_catalog.svv_external_columns
+      where
+        schemaname = 'source'
+        and tablename = 'source_organization_users'
+
+    ),
+
+    unioned as (
+      select * from bound_views
+      union all
+      select * from unbound_views
+      union all
+      select * from external_views
+    )
+
+    select
+      column_name,
+      data_type,
+      character_maximum_length,
+      numeric_precision,
+      numeric_scale
+
+    from unioned
+    
+    where table_schema = 'source'
+    
+    order by ordinal_position
+[0m10:29:04.330382 [debug] [MainThread]: SQL status: SUCCESS in 0.0 seconds
+[0m10:29:04.350308 [debug] [MainThread]: On macro_generate_source: ROLLBACK
+[0m10:29:04.598524 [debug] [MainThread]: On macro_generate_source: Close
+[0m10:29:04.607511 [debug] [MainThread]: Resource report: {"command_name": "run-operation", "command_success": true, "command_wall_clock_time": 2.5950515, "process_user_time": 1.153928, "process_kernel_time": 0.181402, "process_mem_max_rss": "132169728", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m10:29:04.608762 [debug] [MainThread]: Command `dbt run-operation` succeeded at 10:29:04.608562 after 2.60 seconds
+[0m10:29:04.609297 [debug] [MainThread]: Connection 'macro_generate_source' was properly closed.
+[0m10:29:04.609811 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c91ad90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c04af90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cb03990>]}
+[0m10:29:04.610353 [debug] [MainThread]: Flushing usage events
+[0m10:33:46.321273 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x118819c10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11887d750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x118896390>]}
+
+
+============================== 10:33:46.324481 | 253b510f-fd2e-4f2b-b3c0-1fdc8c89a246 ==============================
+[0m10:33:46.324481 [info ] [MainThread]: Running with dbt=1.7.4
+[0m10:33:46.324785 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/Users/tom/Documents/ReadyPlayerMe/dbt/dev/logs', 'debug': 'False', 'profiles_dir': '/Users/tom/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt debug', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m10:33:46.325067 [info ] [MainThread]: dbt version: 1.7.4
+[0m10:33:46.325226 [info ] [MainThread]: python version: 3.11.6
+[0m10:33:46.325371 [info ] [MainThread]: python path: /Users/tom/Documents/ReadyPlayerMe/dbt/venv/bin/python3.11
+[0m10:33:46.325502 [info ] [MainThread]: os info: macOS-14.1-arm64-arm-64bit
+[0m10:33:46.452289 [info ] [MainThread]: Using profiles dir at /Users/tom/.dbt
+[0m10:33:46.452688 [info ] [MainThread]: Using profiles.yml file at /Users/tom/.dbt/profiles.yml
+[0m10:33:46.452842 [info ] [MainThread]: Using dbt_project.yml file at /Users/tom/Documents/ReadyPlayerMe/dbt/dev/dbt_project.yml
+[0m10:33:46.453257 [info ] [MainThread]: adapter type: redshift
+[0m10:33:46.453438 [info ] [MainThread]: adapter version: 1.7.1
+[0m10:33:46.485473 [info ] [MainThread]: Configuration:
+[0m10:33:46.485741 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m10:33:46.485892 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m10:33:46.486024 [info ] [MainThread]: Required dependencies:
+[0m10:33:46.486200 [debug] [MainThread]: Executing "git --help"
+[0m10:33:46.508803 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m10:33:46.509344 [debug] [MainThread]: STDERR: "b''"
+[0m10:33:46.509546 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m10:33:46.509702 [info ] [MainThread]: Connection:
+[0m10:33:46.509890 [info ] [MainThread]:   host: analytics-prod-us1.cklugnwhukht.us-east-1.redshift.amazonaws.com
+[0m10:33:46.510013 [info ] [MainThread]:   user: admin
+[0m10:33:46.510128 [info ] [MainThread]:   port: 5439
+[0m10:33:46.510243 [info ] [MainThread]:   database: analytics
+[0m10:33:46.510364 [info ] [MainThread]:   method: database
+[0m10:33:46.510475 [info ] [MainThread]:   cluster_id: None
+[0m10:33:46.510592 [info ] [MainThread]:   iam_profile: None
+[0m10:33:46.510708 [info ] [MainThread]:   schema: loads
+[0m10:33:46.510820 [info ] [MainThread]:   sslmode: prefer
+[0m10:33:46.510997 [info ] [MainThread]:   region: None
+[0m10:33:46.511201 [info ] [MainThread]:   sslmode: prefer
+[0m10:33:46.511336 [info ] [MainThread]:   region: None
+[0m10:33:46.511458 [info ] [MainThread]:   iam_profile: None
+[0m10:33:46.511576 [info ] [MainThread]:   autocreate: False
+[0m10:33:46.511691 [info ] [MainThread]:   db_groups: []
+[0m10:33:46.511803 [info ] [MainThread]:   ra3_node: False
+[0m10:33:46.511911 [info ] [MainThread]:   connect_timeout: None
+[0m10:33:46.512019 [info ] [MainThread]:   role: None
+[0m10:33:46.512127 [info ] [MainThread]:   retries: 1
+[0m10:33:46.512345 [info ] [MainThread]:   autocommit: True
+[0m10:33:46.512693 [info ] [MainThread]: Registered adapter: redshift=1.7.1
+[0m10:33:46.513130 [debug] [MainThread]: Acquiring new redshift connection 'debug'
+[0m10:33:46.515675 [debug] [MainThread]: Using redshift connection "debug"
+[0m10:33:46.515903 [debug] [MainThread]: On debug: select 1 as id
+[0m10:33:46.516044 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m10:33:46.518960 [debug] [MainThread]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m10:33:46.519165 [debug] [MainThread]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m10:33:47.574504 [debug] [MainThread]: SQL status: SUCCESS in 1.0 seconds
+[0m10:33:47.576875 [debug] [MainThread]: On debug: Close
+[0m10:33:47.578903 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m10:33:47.579790 [info ] [MainThread]: [32mAll checks passed![0m
+[0m10:33:47.583639 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": true, "command_wall_clock_time": 1.288021, "process_user_time": 0.947869, "process_kernel_time": 0.171382, "process_mem_max_rss": "123813888", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m10:33:47.584699 [debug] [MainThread]: Command `dbt debug` succeeded at 10:33:47.584520 after 1.29 seconds
+[0m10:33:47.585138 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m10:33:47.585601 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1060c3310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x100e3a110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x100e52090>]}
+[0m10:33:47.586739 [debug] [MainThread]: Flushing usage events
+[0m10:33:54.331253 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11311a550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1131963d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113196a50>]}
+
+
+============================== 10:33:54.333096 | 7ab93468-3e23-471d-a584-5e3b25919619 ==============================
+[0m10:33:54.333096 [info ] [MainThread]: Running with dbt=1.7.4
+[0m10:33:54.333365 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/Users/tom/Documents/ReadyPlayerMe/dbt/dev/logs', 'profiles_dir': '/Users/tom/.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m10:33:54.457914 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '7ab93468-3e23-471d-a584-5e3b25919619', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113da4390>]}
+[0m10:33:54.491892 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '7ab93468-3e23-471d-a584-5e3b25919619', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113dce050>]}
+[0m10:33:54.492369 [info ] [MainThread]: Registered adapter: redshift=1.7.1
+[0m10:33:54.501199 [debug] [MainThread]: checksum: 248e8aba381ba2d577dce7ab50d2010c2aac45d2b27e6e6214cdd96d2d41fabc, vars: {}, profile: , target: , version: 1.7.4
+[0m10:33:54.540789 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 3 files added, 1 files changed.
+[0m10:33:54.541090 [debug] [MainThread]: Partial parsing: added file: dev://models/reconf/stg/src/stg___source__source_organization_users.sql
+[0m10:33:54.541329 [debug] [MainThread]: Partial parsing: added file: dev://models/reconf/stg/src/stg___source__source_organization_users.yml
+[0m10:33:54.541509 [debug] [MainThread]: Partial parsing: added file: dev://macros/reconf/dbt_reconf.sql
+[0m10:33:54.541743 [debug] [MainThread]: Partial parsing: updated file: dev://models/sources.yml
+[0m10:33:54.782277 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dev.example
+[0m10:33:54.784666 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '7ab93468-3e23-471d-a584-5e3b25919619', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x114b4f6d0>]}
+[0m10:33:54.792017 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '7ab93468-3e23-471d-a584-5e3b25919619', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x114573b50>]}
+[0m10:33:54.792413 [info ] [MainThread]: Found 1 model, 3 tests, 2 sources, 0 exposures, 0 metrics, 662 macros, 0 groups, 0 semantic models
+[0m10:33:54.792656 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '7ab93468-3e23-471d-a584-5e3b25919619', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x114b3a1d0>]}
+[0m10:33:54.793521 [info ] [MainThread]: 
+[0m10:33:54.794020 [debug] [MainThread]: Acquiring new redshift connection 'master'
+[0m10:33:54.794705 [debug] [ThreadPool]: Acquiring new redshift connection 'list_analytics'
+[0m10:33:54.801784 [debug] [ThreadPool]: Using redshift connection "list_analytics"
+[0m10:33:54.802016 [debug] [ThreadPool]: On list_analytics: /* {"app": "dbt", "dbt_version": "1.7.4", "profile_name": "dev", "target_name": "dev", "connection_name": "list_analytics"} */
+
+    select distinct nspname from pg_namespace
+[0m10:33:54.802158 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:33:54.803720 [debug] [ThreadPool]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m10:33:54.803898 [debug] [ThreadPool]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m10:33:55.582771 [debug] [ThreadPool]: SQL status: SUCCESS in 1.0 seconds
+[0m10:33:55.587338 [debug] [ThreadPool]: On list_analytics: Close
+[0m10:33:55.590725 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_analytics, now create_analytics_loads_stg)
+[0m10:33:55.591986 [debug] [ThreadPool]: Creating schema "database: "analytics"
+schema: "loads_stg"
+"
+[0m10:33:55.601440 [debug] [ThreadPool]: Using redshift connection "create_analytics_loads_stg"
+[0m10:33:55.601785 [debug] [ThreadPool]: On create_analytics_loads_stg: BEGIN
+[0m10:33:55.601960 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m10:33:55.602234 [debug] [ThreadPool]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m10:33:55.602410 [debug] [ThreadPool]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m10:33:56.346194 [debug] [ThreadPool]: SQL status: SUCCESS in 1.0 seconds
+[0m10:33:56.346912 [debug] [ThreadPool]: Using redshift connection "create_analytics_loads_stg"
+[0m10:33:56.347272 [debug] [ThreadPool]: On create_analytics_loads_stg: /* {"app": "dbt", "dbt_version": "1.7.4", "profile_name": "dev", "target_name": "dev", "connection_name": "create_analytics_loads_stg"} */
+create schema if not exists "loads_stg"
+[0m10:33:56.717534 [debug] [ThreadPool]: SQL status: SUCCESS in 0.0 seconds
+[0m10:33:56.720128 [debug] [ThreadPool]: On create_analytics_loads_stg: COMMIT
+[0m10:33:56.721344 [debug] [ThreadPool]: Using redshift connection "create_analytics_loads_stg"
+[0m10:33:56.722036 [debug] [ThreadPool]: On create_analytics_loads_stg: COMMIT
+[0m10:33:57.018091 [debug] [ThreadPool]: SQL status: SUCCESS in 0.0 seconds
+[0m10:33:57.019715 [debug] [ThreadPool]: On create_analytics_loads_stg: Close
+[0m10:33:57.024599 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_analytics_loads_stg, now list_analytics_loads_stg)
+[0m10:33:57.038097 [debug] [ThreadPool]: Using redshift connection "list_analytics_loads_stg"
+[0m10:33:57.038541 [debug] [ThreadPool]: On list_analytics_loads_stg: BEGIN
+[0m10:33:57.038754 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m10:33:57.039140 [debug] [ThreadPool]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m10:33:57.039483 [debug] [ThreadPool]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m10:33:57.860972 [debug] [ThreadPool]: SQL status: SUCCESS in 1.0 seconds
+[0m10:33:57.862799 [debug] [ThreadPool]: Using redshift connection "list_analytics_loads_stg"
+[0m10:33:57.864364 [debug] [ThreadPool]: On list_analytics_loads_stg: /* {"app": "dbt", "dbt_version": "1.7.4", "profile_name": "dev", "target_name": "dev", "connection_name": "list_analytics_loads_stg"} */
+select
+        table_catalog as database,
+        table_name as name,
+        table_schema as schema,
+        'table' as type
+    from information_schema.tables
+    where table_schema ilike 'loads_stg'
+    and table_type = 'BASE TABLE'
+    union all
+    select
+      table_catalog as database,
+      table_name as name,
+      table_schema as schema,
+      case
+        when view_definition ilike '%create materialized view%'
+          then 'materialized_view'
+        else 'view'
+      end as type
+    from information_schema.views
+    where table_schema ilike 'loads_stg'
+[0m10:33:58.095458 [debug] [ThreadPool]: SQL status: SUCCESS in 0.0 seconds
+[0m10:33:58.097870 [debug] [ThreadPool]: On list_analytics_loads_stg: ROLLBACK
+[0m10:33:58.300350 [debug] [ThreadPool]: On list_analytics_loads_stg: Close
+[0m10:33:58.314975 [debug] [MainThread]: Using redshift connection "master"
+[0m10:33:58.315564 [debug] [MainThread]: On master: BEGIN
+[0m10:33:58.315855 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m10:33:58.316358 [debug] [MainThread]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m10:33:58.316705 [debug] [MainThread]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m10:33:59.139718 [debug] [MainThread]: SQL status: SUCCESS in 1.0 seconds
+[0m10:33:59.141342 [debug] [MainThread]: Using redshift connection "master"
+[0m10:33:59.142540 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.7.4", "profile_name": "dev", "target_name": "dev", "connection_name": "master"} */
+with
+    relation as (
+        select
+            pg_class.oid as relation_id,
+            pg_class.relname as relation_name,
+            pg_class.relnamespace as schema_id,
+            pg_namespace.nspname as schema_name,
+            pg_class.relkind as relation_type
+        from pg_class
+        join pg_namespace
+          on pg_class.relnamespace = pg_namespace.oid
+        where pg_namespace.nspname != 'information_schema'
+          and pg_namespace.nspname not like 'pg\_%'
+    ),
+    dependency as (
+        select distinct
+            coalesce(pg_rewrite.ev_class, pg_depend.objid) as dep_relation_id,
+            pg_depend.refobjid as ref_relation_id,
+            pg_depend.refclassid as ref_class_id
+        from pg_depend
+        left join pg_rewrite
+          on pg_depend.objid = pg_rewrite.oid
+        where coalesce(pg_rewrite.ev_class, pg_depend.objid) != pg_depend.refobjid
+    )
+
+select distinct
+    dep.schema_name as dependent_schema,
+    dep.relation_name as dependent_name,
+    ref.schema_name as referenced_schema,
+    ref.relation_name as referenced_name
+from dependency
+join relation ref
+    on dependency.ref_relation_id = ref.relation_id
+join relation dep
+    on dependency.dep_relation_id = dep.relation_id
+[0m10:33:59.524647 [debug] [MainThread]: SQL status: SUCCESS in 0.0 seconds
+[0m10:33:59.528246 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '7ab93468-3e23-471d-a584-5e3b25919619', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x114bbcf90>]}
+[0m10:33:59.528629 [debug] [MainThread]: On master: ROLLBACK
+[0m10:33:59.740754 [debug] [MainThread]: Using redshift connection "master"
+[0m10:33:59.741371 [debug] [MainThread]: On master: BEGIN
+[0m10:33:59.837957 [debug] [MainThread]: SQL status: SUCCESS in 0.0 seconds
+[0m10:33:59.838387 [debug] [MainThread]: On master: COMMIT
+[0m10:33:59.838681 [debug] [MainThread]: Using redshift connection "master"
+[0m10:33:59.838938 [debug] [MainThread]: On master: COMMIT
+[0m10:34:00.032828 [debug] [MainThread]: SQL status: SUCCESS in 0.0 seconds
+[0m10:34:00.033764 [debug] [MainThread]: On master: Close
+[0m10:34:00.035757 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m10:34:00.036501 [info ] [MainThread]: 
+[0m10:34:00.041350 [debug] [Thread-1 (]: Began running node model.dev.stg___source__source_organization_users
+[0m10:34:00.042432 [info ] [Thread-1 (]: 1 of 1 START sql incremental model loads_stg.stg___source__source_organization_users  [RUN]
+[0m10:34:00.044057 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_analytics_loads_stg, now model.dev.stg___source__source_organization_users)
+[0m10:34:00.044719 [debug] [Thread-1 (]: Began compiling node model.dev.stg___source__source_organization_users
+[0m10:34:00.072003 [debug] [Thread-1 (]: Writing injected SQL for node "model.dev.stg___source__source_organization_users"
+[0m10:34:00.073600 [debug] [Thread-1 (]: Timing info for model.dev.stg___source__source_organization_users (compile): 10:34:00.045081 => 10:34:00.073375
+[0m10:34:00.073912 [debug] [Thread-1 (]: Began executing node model.dev.stg___source__source_organization_users
+[0m10:34:00.108822 [debug] [Thread-1 (]: Writing runtime sql for node "model.dev.stg___source__source_organization_users"
+[0m10:34:00.114214 [debug] [Thread-1 (]: Using redshift connection "model.dev.stg___source__source_organization_users"
+[0m10:34:00.114473 [debug] [Thread-1 (]: On model.dev.stg___source__source_organization_users: BEGIN
+[0m10:34:00.114628 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m10:34:00.114893 [debug] [Thread-1 (]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m10:34:00.115058 [debug] [Thread-1 (]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m10:34:00.945663 [debug] [Thread-1 (]: SQL status: SUCCESS in 1.0 seconds
+[0m10:34:00.946784 [debug] [Thread-1 (]: Using redshift connection "model.dev.stg___source__source_organization_users"
+[0m10:34:00.947679 [debug] [Thread-1 (]: On model.dev.stg___source__source_organization_users: /* {"app": "dbt", "dbt_version": "1.7.4", "profile_name": "dev", "target_name": "dev", "node_id": "model.dev.stg___source__source_organization_users"} */
+
+      
+  
+    
+
+  create  table
+    "analytics"."loads_stg"."stg___source__source_organization_users"
+    
+    
+    
+  as (
+    /*
+BEGIN OF reconfigured.io
+DO NOT EDIT this section
+RCSRC(2a349b43d0a9efe7dbc1fee97dd47f04)
+*/
+
+
+-- Loading incremental helpers for stg___source__source_organization_users
+-- End of incremental helpers
+WITH
+  base AS (
+    WITH ___pre AS (
+      SELECT
+        -- Column: ___hash
+        SHA2('_id' || '|' || CAST(rc1m99m23._id AS TEXT)|| '||' || 'updatedat' || '|' || CAST(rc1m99m23.updatedat AS TEXT)|| '||' || 'terms' || '|' || CAST(rc1m99m23.terms AS TEXT)|| '||' || '__hevo__ingested_at' || '|' || CAST(rc1m99m23.__hevo__ingested_at AS TEXT)|| '||' || 'deletedat' || '|' || CAST(rc1m99m23.deletedat AS TEXT)|| '||' || '__hevo__database_name' || '|' || CAST(rc1m99m23.__hevo__database_name AS TEXT)|| '||' || 'userid' || '|' || CAST(rc1m99m23.userid AS TEXT)|| '||' || '__hevo_id' || '|' || CAST(rc1m99m23.__hevo_id AS TEXT)|| '||' || '__hevo__source_modified_at' || '|' || CAST(rc1m99m23.__hevo__source_modified_at AS TEXT)|| '||' || '__v' || '|' || CAST(rc1m99m23.__v AS TEXT)|| '||' || '__hevo__marked_deleted' || '|' || CAST(rc1m99m23.__hevo__marked_deleted AS TEXT)|| '||' || 'organizationid' || '|' || CAST(rc1m99m23.organizationid AS TEXT)|| '||' || 'createdat' || '|' || CAST(rc1m99m23.createdat AS TEXT)|| '||' || '__hevo__loaded_at' || '|' || CAST(rc1m99m23.__hevo__loaded_at AS TEXT), 256)
+ AS "___hash",
+        -- Column: ___as_of
+        CAST(rc1m99m23.createdat AS timestamp) AS "___as_of",
+        -- Column: ___loaded_at
+        CAST(CAST('2023-12-18T10:33:54.322533+00:00' AS timestamp) AS timestamp) AS "___loaded_at",
+        -- Column: ___source_loaded_at
+        CAST(CAST('2023-12-18T10:33:54.322533+00:00' AS timestamp) AS timestamp) AS "___source_loaded_at",
+        -- Column: ___is_deleted
+        FALSE AS "___is_deleted",
+        -- Column: ___source_id
+        CAST(rc1m99m23._id AS TEXT) AS "___source_id",
+        -- Column: _id
+        rc1m99m23._id AS "_id",
+        -- Column: updatedat
+        rc1m99m23.updatedat AS "updatedat",
+        -- Column: terms
+        rc1m99m23.terms AS "terms",
+        -- Column: __hevo__ingested_at
+        rc1m99m23.__hevo__ingested_at AS "__hevo__ingested_at",
+        -- Column: deletedat
+        rc1m99m23.deletedat AS "deletedat",
+        -- Column: __hevo__database_name
+        rc1m99m23.__hevo__database_name AS "__hevo__database_name",
+        -- Column: userid
+        rc1m99m23.userid AS "userid",
+        -- Column: __hevo_id
+        rc1m99m23.__hevo_id AS "__hevo_id",
+        -- Column: __hevo__source_modified_at
+        rc1m99m23.__hevo__source_modified_at AS "__hevo__source_modified_at",
+        -- Column: __v
+        rc1m99m23.__v AS "__v",
+        -- Column: __hevo__marked_deleted
+        rc1m99m23.__hevo__marked_deleted AS "__hevo__marked_deleted",
+        -- Column: organizationid
+        rc1m99m23.organizationid AS "organizationid",
+        -- Column: createdat
+        rc1m99m23.createdat AS "createdat",
+        -- Column: __hevo__loaded_at
+        rc1m99m23.__hevo__loaded_at AS "__hevo__loaded_at"
+      FROM "analytics"."source"."source_organization_users" AS rc1m99m23
+      WHERE ( 1 = 1 AND ( CAST('2023-12-18T10:33:54.322533+00:00' AS timestamp) <= CAST('2023-12-18T10:33:54.322533+00:00' AS timestamp) ) )
+    )
+    ,___rn_added AS (
+      SELECT
+        "___hash"
+        , "___as_of"
+        , "___loaded_at"
+        , "___source_loaded_at"
+        , "___is_deleted"
+        , "___source_id"
+        , "_id"
+        , "updatedat"
+        , "terms"
+        , "__hevo__ingested_at"
+        , "deletedat"
+        , "__hevo__database_name"
+        , "userid"
+        , "__hevo_id"
+        , "__hevo__source_modified_at"
+        , "__v"
+        , "__hevo__marked_deleted"
+        , "organizationid"
+        , "createdat"
+        , "__hevo__loaded_at"
+        , ROW_NUMBER() OVER (PARTITION BY "___hash" ORDER BY "___as_of" ASC) AS "___rn"
+      FROM ___pre
+    )
+    SELECT
+      "___hash"
+      , "___as_of"
+      , "___loaded_at"
+      , "___source_loaded_at"
+      , "___is_deleted"
+      , "___source_id"
+      , "_id"
+      , "updatedat"
+      , "terms"
+      , "__hevo__ingested_at"
+      , "deletedat"
+      , "__hevo__database_name"
+      , "userid"
+      , "__hevo_id"
+      , "__hevo__source_modified_at"
+      , "__v"
+      , "__hevo__marked_deleted"
+      , "organizationid"
+      , "createdat"
+      , "__hevo__loaded_at"
+    FROM ___rn_added
+    WHERE "___rn" = 1
+)
+/*
+feel free to edit what comes after this
+END OF reconfigured.io
+*/
+
+SELECT *
+FROM base
+  );
+[0m10:34:01.056540 [debug] [Thread-1 (]: Redshift adapter: Redshift error: cannot cast type boolean to character varying
+[0m10:34:01.057681 [debug] [Thread-1 (]: On model.dev.stg___source__source_organization_users: ROLLBACK
+[0m10:34:01.263764 [debug] [Thread-1 (]: Timing info for model.dev.stg___source__source_organization_users (execute): 10:34:00.074032 => 10:34:01.262053
+[0m10:34:01.265735 [debug] [Thread-1 (]: On model.dev.stg___source__source_organization_users: Close
+[0m10:34:01.274170 [debug] [Thread-1 (]: Database Error in model stg___source__source_organization_users (models/reconf/stg/src/stg___source__source_organization_users.sql)
+  cannot cast type boolean to character varying
+  compiled Code at target/run/dev/models/reconf/stg/src/stg___source__source_organization_users.sql
+[0m10:34:01.275383 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '7ab93468-3e23-471d-a584-5e3b25919619', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x114430310>]}
+[0m10:34:01.276136 [error] [Thread-1 (]: 1 of 1 ERROR creating sql incremental model loads_stg.stg___source__source_organization_users  [[31mERROR[0m in 1.23s]
+[0m10:34:01.276602 [debug] [Thread-1 (]: Finished running node model.dev.stg___source__source_organization_users
+[0m10:34:01.277931 [debug] [MainThread]: Using redshift connection "master"
+[0m10:34:01.278212 [debug] [MainThread]: On master: BEGIN
+[0m10:34:01.278531 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m10:34:01.279058 [debug] [MainThread]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m10:34:01.279356 [debug] [MainThread]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m10:34:02.128408 [debug] [MainThread]: SQL status: SUCCESS in 1.0 seconds
+[0m10:34:02.128910 [debug] [MainThread]: On master: COMMIT
+[0m10:34:02.129266 [debug] [MainThread]: Using redshift connection "master"
+[0m10:34:02.129464 [debug] [MainThread]: On master: COMMIT
+[0m10:34:02.321544 [debug] [MainThread]: SQL status: SUCCESS in 0.0 seconds
+[0m10:34:02.321907 [debug] [MainThread]: On master: Close
+[0m10:34:02.322493 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m10:34:02.322651 [debug] [MainThread]: Connection 'model.dev.stg___source__source_organization_users' was properly closed.
+[0m10:34:02.322850 [info ] [MainThread]: 
+[0m10:34:02.323032 [info ] [MainThread]: Finished running 1 incremental model in 0 hours 0 minutes and 7.53 seconds (7.53s).
+[0m10:34:02.323361 [debug] [MainThread]: Command end result
+[0m10:34:02.335418 [info ] [MainThread]: 
+[0m10:34:02.335752 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m10:34:02.335983 [info ] [MainThread]: 
+[0m10:34:02.336214 [error] [MainThread]:   Database Error in model stg___source__source_organization_users (models/reconf/stg/src/stg___source__source_organization_users.sql)
+  cannot cast type boolean to character varying
+  compiled Code at target/run/dev/models/reconf/stg/src/stg___source__source_organization_users.sql
+[0m10:34:02.336438 [info ] [MainThread]: 
+[0m10:34:02.336695 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[0m10:34:02.338044 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 8.029783, "process_user_time": 1.551598, "process_kernel_time": 0.166344, "process_mem_max_rss": "150290432", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m10:34:02.338460 [debug] [MainThread]: Command `dbt run` failed at 10:34:02.338378 after 8.03 seconds
+[0m10:34:02.338757 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103015d50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113179ed0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11317a7d0>]}
+[0m10:34:02.338973 [debug] [MainThread]: Flushing usage events

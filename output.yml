@@ -1,0 +1,42 @@
+[0m10:29:02  Running with dbt=1.7.4
+[0m10:29:02  Registered adapter: redshift=1.7.1
+[0m10:29:02  [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dev.example
+[0m10:29:02  Found 1 source, 0 exposures, 0 metrics, 591 macros, 0 groups, 0 semantic models
+version: 2
+
+sources:
+  - name: source
+    tables:
+      - name: source_organization_users
+        columns:
+          - name: _id
+            data_type: character varying
+          - name: userid
+            data_type: character varying
+          - name: organizationid
+            data_type: character varying
+          - name: __v
+            data_type: integer
+          - name: __hevo__database_name
+            data_type: character varying
+          - name: __hevo_id
+            data_type: character varying
+          - name: __hevo__ingested_at
+            data_type: bigint
+          - name: __hevo__loaded_at
+            data_type: bigint
+          - name: __hevo__marked_deleted
+            data_type: boolean
+          - name: __hevo__source_modified_at
+            data_type: bigint
+          - name: createdat
+            data_type: timestamp without time zone
+          - name: updatedat
+            data_type: timestamp without time zone
+          - name: terms
+            data_type: super
+          - name: deletedat
+            data_type: timestamp without time zone
+

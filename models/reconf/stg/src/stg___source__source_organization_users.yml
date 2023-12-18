@@ -1,0 +1,91 @@
+version: 2
+models:
+  - name: stg___source__source_organization_users
+    description: "Project model from source: source - source_organization_users"
+    columns:
+      - name: ___hash
+        description: Hash of the columns defined in the uploaded source manifest
+        tests:
+          - not_null
+          - unique
+      - name: ___as_of
+        description: Best guestimate on since when this row is true. Looks first for
+          configuration for As of column, then updated_at, then created_at then
+          loaded at. If no value available fallsback to 0001-01-01T00:00:00
+        tests: []
+      - name: ___loaded_at
+        description: Time when this object was loaded from Source table to this TV-ODS
+        tests: []
+      - name: ___source_loaded_at
+        description: Time when this object was loaded from the Source system to the
+          Source table. Fallback to current run time.
+        tests: []
+      - name: ___is_deleted
+        description: Boolean flag indigating deletion
+        tests: []
+      - name: ___source_id
+        description: Id of the object in the Source from which this row came from
+        tests:
+          - not_null
+      - name: _id
+        description: 'Column _id in Table "source_organization_users" in Schema: source'
+        tests: []
+      - name: updatedat
+        description: 'Column updatedat in Table "source_organization_users" in Schema:
+          source'
+        tests: []
+      - name: terms
+        description: 'Column terms in Table "source_organization_users" in Schema: source'
+        tests: []
+      - name: __hevo__ingested_at
+        description: 'Column __hevo__ingested_at in Table "source_organization_users" in
+          Schema: source'
+        tests: []
+      - name: deletedat
+        description: 'Column deletedat in Table "source_organization_users" in Schema:
+          source'
+        tests: []
+      - name: __hevo__database_name
+        description: 'Column __hevo__database_name in Table "source_organization_users"
+          in Schema: source'
+        tests: []
+      - name: userid
+        description: 'Column userid in Table "source_organization_users" in Schema: source'
+        tests: []
+      - name: __hevo_id
+        description: 'Column __hevo_id in Table "source_organization_users" in Schema:
+          source'
+        tests: []
+      - name: __hevo__source_modified_at
+        description: 'Column __hevo__source_modified_at in Table
+          "source_organization_users" in Schema: source'
+        tests: []
+      - name: __v
+        description: 'Column __v in Table "source_organization_users" in Schema: source'
+        tests: []
+      - name: __hevo__marked_deleted
+        description: 'Column __hevo__marked_deleted in Table "source_organization_users"
+          in Schema: source'
+        tests: []
+      - name: organizationid
+        description: 'Column organizationid in Table "source_organization_users" in
+          Schema: source'
+        tests: []
+      - name: createdat
+        description: 'Column createdat in Table "source_organization_users" in Schema:
+          source'
+        tests: []
+      - name: __hevo__loaded_at
+        description: 'Column __hevo__loaded_at in Table "source_organization_users" in
+          Schema: source'
+        tests: []
+    config:
+      materialized: incremental
+      tags:
+        - reconf
+        - rc_source
+      schema: stg
+    meta:
+      reconf:
+        dagId: 2a349b43d0a9efe7dbc1fee97dd47f04
+        generationId: 3d13b0e84297c69bfd71057b7745b0d0
