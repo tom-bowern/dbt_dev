@@ -1,0 +1,37 @@
+version: 2
+
+sources:
+  - name: services
+    description: Replicates the tables coming from our own services
+    database: analytics
+    schema: source
+    tables:
+      - name: asset_service_v1_asset_updated
+        description: Table that stores metadata about all updated assets. It contains one entry for every update
+
+      - name: asset_service_v1_asset_created
+        description: Table that stores metadata about all assets created
+
+      - name: auth_service_v1_organization_created
+        description: Table that contains the information for all the organizations created through Studio form
+
+      - name: application_service_v1_application_created
+        description: Table that contains the first information for all the created applications
+
+      - name: auth_service_v1_organization_deleted
+        description: Table that contains the information of deleted organizations
+
+      - name: application_service_v1_application_updated
+        description: Table that contains the change log for all the updates a developer do in their application
+
+      - name: auth_service_v1_api_key_created
+        description: Table that contains the information of all the API keys created by partners
+
+      - name: auth_service_v1_api_key_deleted
+        description: Table that contains the information about all the API keys created by partners
+
+      - name: asset_service_v1_asset_deleted
+        description: Table that contains the information about all the API keys created by partners
+
+    meta:
+      owner: "#analytics-team"

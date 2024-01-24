@@ -28,9 +28,9 @@ WITH
         -- Column: ___as_of
         CAST(rc1m99m23.createdat AS timestamp) AS "___as_of",
         -- Column: ___loaded_at
-        CAST(CAST('2023-12-18T10:33:54.322533+00:00' AS timestamp) AS timestamp) AS "___loaded_at",
+        CAST(CAST('2023-12-18T10:47:17.756177+00:00' AS timestamp) AS timestamp) AS "___loaded_at",
         -- Column: ___source_loaded_at
-        CAST(CAST('2023-12-18T10:33:54.322533+00:00' AS timestamp) AS timestamp) AS "___source_loaded_at",
+        CAST(CAST('2023-12-18T10:47:17.756177+00:00' AS timestamp) AS timestamp) AS "___source_loaded_at",
         -- Column: ___is_deleted
         FALSE AS "___is_deleted",
         -- Column: ___source_id
@@ -64,7 +64,7 @@ WITH
         -- Column: __hevo__loaded_at
         rc1m99m23.__hevo__loaded_at AS "__hevo__loaded_at"
       FROM "analytics"."source"."source_organization_users" AS rc1m99m23
-      WHERE ( 1 = 1 AND ( CAST('2023-12-18T10:33:54.322533+00:00' AS timestamp) <= CAST('2023-12-18T10:33:54.322533+00:00' AS timestamp) ) )
+      WHERE ( 1 = 1 AND ( CAST('2023-12-18T10:47:17.756177+00:00' AS timestamp) <= CAST('2023-12-18T10:47:17.756177+00:00' AS timestamp) ) )
     )
     ,___rn_added AS (
       SELECT
